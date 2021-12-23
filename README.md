@@ -6,7 +6,7 @@
 - Coding an axact Mockup design guidlines.
 - Using HTML & CSS to get the same look as the static picture .
 
-## Deployment Link:
+## Deployment Link: https://epic-shannon-f9a6bc.netlify.app/
 
 Have Fun!
 
