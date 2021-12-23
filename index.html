@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+    <title>Figma</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="side-bar">
+      <div id="saas"><p>SaaS Kit</p></div>
+      <hr />
+      <div id="profile">
+        <img id="profile-pic" src="./pics/side_bar/image 2.png" alt="pic" />
+        <ul>
+          <li><p id="name">Sierra Ferguson</p></li>
+          <li><p style="color: #90a0b7">s.ferguson.com</p></li>
+        </ul>
+      </div>
+      <div>
+        <br />
+        <ul>
+          <li><img src="./pics/side_bar/dashboard.svg" alt="dashboardLogo" /></li>
+          <br />
+          <li><img src="./pics/side_bar/Tasks.svg" alt="dashboardLogo" /></li>
+          <br />
+          <li><img src="./pics/side_bar/Email.svg" alt="dashboardLogo" /></li>
+          <br />
+          <li><img src="./pics/side_bar/Contacts.svg" alt="dashboardLogo" /></li>
+          <br />
+          <li><img src="./pics/side_bar/Contacts.svg" alt="dashboardLogo" /></li>
+          <br />
+          <li><img src="./pics/side_bar/Deals.svg" alt="dashboardLogo" /></li>
+          <hr />
+          <li><img src="./pics/side_bar/Settings.svg" alt="dashboardLogo" /></li>
+        </ul>
+        <div id="toggle"><img src="./pics/side_bar/toggle_sidebar.svg" alt="dashboardLogo" /></div>
+      </div>
+    </div>
+    <!-- End Of Side Bar --><!-- End Of Side Bar --><!-- End Of Side Bar --><!-- End Of Side Bar -->
+
+    <section id="main">
+      <div id="search-bar">
+        <div id="magnifier">
+          <img src="./pics/side_bar/search/search.svg" alt="" />
+        </div>
+        <div id="notifications"><img src="./pics/side_bar/search/icon/other/notifications.svg" alt="" /></div>
+      </div>
+      <div id="tasks">
+        <div id="tasks-left">
+          <div id="dates">
+            <p>8 task completed out of 10</p>
+            <div>
+              <label style="color: #6a707e">show:</label>
+              <select>
+                <option value="">This week</option>
+                <option value="">This month</option>
+                <option value="">This year</option>
+              </select>
+            </div>
+          </div>
+          <progress id="bar" value="80" max="100"></progress>
+          <p style="margin: 0; align-self: flex-start; margin-left: 25px">23 December, Sunday</p>
+          <div class="dates-order">
+            <div class="li-dates">
+              Sun
+              <div class="li-dates">23</div>
+            </div>
+
+            <div class="li-dates">
+              Mon
+              <div class="li-dates">24</div>
+            </div>
+            <div class="li-dates">
+              Tue
+              <div class="li-dates">25</div>
+            </div>
+            <div class="li-dates">
+              Wed
+              <div class="li-dates">26</div>
+            </div>
+            <div class="li-dates">
+              Thu
+              <div class="li-dates">27</div>
+            </div>
+            <div class="li-dates">
+              Fri
+              <div class="li-dates">28</div>
+            </div>
+            <div class="li-dates">
+              Sat
+              <div class="li-dates">29</div>
+            </div>
+          </div>
+          <div id="divider"></div>
+          <div class="task1-and3">
+            <div class="task-top">
+              <p>Send Benefits review by Sunday</p>
+              <p>Reminder</p>
+            </div>
+            <div class="task-date">
+              <p>Due date:</p>
+              <p>December 23,2018</p>
+            </div>
+            <div class="task-buttom">
+              <div class="pic-div">
+                <img class="avatar" src="./pics/Tasks/profilePics/GEO.png" alt="" />
+                <p class="p-no-margin">George Fields</p>
+              </div>
+              <button type="button" class="btn-completed">Completed</button>
+            </div>
+          </div>
+          <div id="task2">
+            <div class="task-top">
+              <p>Invite to office meet-up</p>
+              <p>Call</p>
+            </div>
+            <div class="task-date">
+              <p>Due date:</p>
+              <p>December 23,2018</p>
+            </div>
+            <div class="task-buttom">
+              <div class="pic-div">
+                <img class="avatar" src="./pics/Tasks/profilePics/REB.png" alt="" />
+                <p class="p-no-margin">Rebecca Moore Fields</p>
+              </div>
+              <button type="button" class="btn-ended">Completed</button>
+            </div>
+          </div>
+          <div class="task1-and3">
+            <div class="task-top">
+              <p>Office meet-up</p>
+              <p>Event</p>
+            </div>
+            <div class="task-date">
+              <p>Due date:</p>
+              <p>December 23,2018</p>
+            </div>
+            <div class="task-buttom">
+              <div class="pic-div">
+                <img class="avatar" src="./pics/Tasks/profilePics/LIN.png" alt="" />
+                <p class="p-no-margin">Lindsey Stroud</p>
+              </div>
+              <button type="button" class="btn-completed">Completed</button>
+            </div>
+          </div>
+        </div>
+        <div id="charts-right">
+          <div id="deals-chart">
+            <div id="deals-top">
+              <h2 style="font-size: 23px">Deals</h2>
+              <div>
+                <label style="color: #6a707e">show:</label>
+                <select>
+                  <option value="">Monthly</option>
+                  <option value="">This month</option>
+                  <option value="">This year</option>
+                </select>
+              </div>
+            </div>
+            <img src="./pics/Tasks/closed_deals.svg" alt="" />
+            <img src="./pics/Tasks/deals_graphic.svg" alt="" />
+          </div>
+          <div id="tasks-chart">
+            <div id="deals-top">
+              <h2 style="font-size: 23px">Tasks</h2>
+              <div>
+                <label style="color: #6a707e">show:</label>
+                <select>
+                  <option value="">This month</option>
+                  <option value="">This month</option>
+                  <option value="">This year</option>
+                </select>
+              </div>
+            </div>
+            <div id="circle">
+              <div id="circle-left">
+                <img src="./pics/Tasks/Circle/Group 1.svg" alt="" />
+              </div>
+              <div id="circle-right">
+                <img src="./pics/Tasks/Circle/active_task.svg" alt="" />
+                <img src="./pics/Tasks/Circle/completed_task.svg" alt="" />
+                <img src="./pics/Tasks/Circle/ended_task.svg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
